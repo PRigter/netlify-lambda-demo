@@ -1,6 +1,6 @@
 
 // Fetch LOCALLY for DEvelopemnt
-const fetchWeather = async () => await (await fetch("http://localhost:9000/getusers")).json()
+// const fetchWeather = async () => await (await fetch("http://localhost:9000/getusers")).json()
 
 // Fetch on NETLIFY Lambda FUNCTIONS
 const fetchWeather = async () => await (await fetch("/.netlify/functions/getusers")).json()
